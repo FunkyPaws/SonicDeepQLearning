@@ -1,0 +1,24 @@
+retro.make( Gamename, state )
+Gamename can be found in : retro/data/stable/game of choice
+State can be found in the previous folder
+------------------------------------------------------------------
+Epsilon = Exploration vs. Exploitation
+1 = exploration
+this becomes lesser the more the agent explored the enviourment
+there should be a good balance between Exploration and Exploitation
+-------------------------------------------------------------------
+Learning rate = how fast the agent discards the previous
+q-table value for a new q-able value
+1 = straightly go to the new q-table value without considering the
+previous q-table value
+-------------------------------------------------------------------
+For this situation a normal Q_table will not suffice
+The environment is way to big and
+and there are 12 different actions as well
+This means that there are millions of possible states.
+Try updating a Q-table with that...
+And thus comes the Deep Q-Learning (DQL)
+-------------------------------------------------------------------
+buttons
+[0='B', 1='A', 2='MODE', 3='START', 4='UP', 5='DOWN', 6='LEFT', 7='RIGHT', 8='C', 9='Y', 'X', 'Z']
+[jump, jump, none, none, watch up, croutch, run left, run right, jump, none, none, none]
